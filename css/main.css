@@ -12,18 +12,21 @@ ul,ol{
 }
 
 
-.grid-container {
+.header_list{
     display: grid;
+    justify-content: space-evenly;
     grid-template-columns: auto auto auto;
-    column-gap: 20px;
-    row-gap: 30px;
-    background-color: #0000ff;
-}
-
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    gap: 0;
+}
+.header_title{
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+.header_text{
+    opacity: 0.4;
+    margin-bottom: 10px;
+}
+img{
+    margin-bottom: 10px;
 }
